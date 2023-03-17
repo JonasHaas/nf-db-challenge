@@ -1,5 +1,5 @@
 resource "aws_instance" "main" {
-  ami           = "ami-0499632f10efc5a62"
+  ami           = "ami-06616b7884ac98cdd"
   instance_type = "t2.micro"
   key_name      = "vockey"
   subnet_id     =  aws_subnet.public_subnet_1.id
