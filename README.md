@@ -9,3 +9,4 @@
 7. in the ec2 instance replace endpoint and run:
 8. `mysql -h <endpoint> -P 3306 -u admin -p`
 
+### Dont forget to run `terraform destroy` when you are done
